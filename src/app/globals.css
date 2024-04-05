@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100px; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  position: absolute;
+  transition: transform 0.1s ease;
+}
